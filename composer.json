@@ -1,0 +1,18 @@
+{
+    "name": "xpanse/phpsdk",
+    "type": "library",
+    "license": "MIT",
+    "description": "php SDK to provide a friendly interface to the xpanse API",
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "xpanse\\Sdk\\": "src"
+        }
+    }
+}
