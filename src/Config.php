@@ -22,13 +22,8 @@ class Config
         'none-production' => 'https://api.xpanse.one',
 
         'au-development' => 'https://develop-api-au.xpanse.one',
-        'us-development' => 'https://develop-api-us.xpanse.one',
-        'jp-development' => 'https://develop-api-jp.xpanse.one',
         'au-sandbox' => 'https://sandbox-api-au.xpanse.one',
-        'us-sandbox' => 'https://sandbox-api-us.xpanse.one',
         'au-production' => 'https://api-au.xpanse.one',
-        'us-production' => 'https://api-us.xpanse.one',
-        'eu-production' => 'https://api-eu.xpanse.one'
     ];
 
     public static function initialise($SecretKey, $Environment, $TimeoutMilliseconds = 60000, $EnableDebug = false)
